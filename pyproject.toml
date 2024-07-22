@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "apsiyon-search-v2"
+version = "0.1.0"
+description = ""
+authors = ["fmelihh <furkanmelihercan.98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pysolr = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
