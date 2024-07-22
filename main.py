@@ -27,7 +27,7 @@ async def upload_data(
 
 @app.post("/search")
 def search(search_service: SearchService = Depends(SearchService)):
-    pass
+    search_service.search()
 
 
 if __name__ == "__main__":

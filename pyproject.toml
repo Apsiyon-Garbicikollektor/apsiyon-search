@@ -12,6 +12,7 @@ fastapi = "^0.111.1"
 uvicorn = "^0.30.3"
 pandas = "^2.2.2"
 python-dotenv = "^1.0.1"
+kazoo = "^2.10.0"
 
 
 [build-system]

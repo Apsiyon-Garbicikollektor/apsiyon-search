@@ -13,7 +13,7 @@ class SearchService:
         return self._solr
 
     def search(self):
-        pass
+        self.solr.search()
 
     def upload_data(self, df: pd.DataFrame):
         pass

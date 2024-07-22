@@ -376,6 +376,27 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
+name = "kazoo"
+version = "2.10.0"
+description = "\"Higher Level Zookeeper Client\""
+optional = false
+python-versions = "*"
+files = [
+    {file = "kazoo-2.10.0-py2.py3-none-any.whl", hash = "sha256:de2d69168de432ff66b457a26c727a5bf7ff53af5806653fd1df7f04b6a5483c"},
+    {file = "kazoo-2.10.0.tar.gz", hash = "sha256:905796ae4f4c12bd4e4ae92e6e5d018439e6b56c8cfbb24825362e79b230dab1"},
+]
+
+[package.extras]
+alldeps = ["Sphinx (>=1.2.2)", "eventlet (>=0.17.1)", "flake8", "gevent (>=1.2)", "mypy (>=0.991)", "pure-sasl (>=0.5.1)", "sphinx-autodoc-typehints (>=1)"]
+dev = ["flake8"]
+docs = ["Sphinx (>=1.2.2)", "sphinx-autodoc-typehints (>=1)"]
+eventlet = ["eventlet (>=0.17.1)"]
+gevent = ["gevent (>=1.2)"]
+sasl = ["pure-sasl (>=0.5.1)"]
+test = ["eventlet (>=0.17.1)", "gevent (>=1.2)", "objgraph", "pyjks", "pyopenssl", "pytest", "pytest-cov"]
+typing = ["mypy (>=0.991)"]
+
+[[package]]
 name = "markdown-it-py"
 version = "3.0.0"
 description = "Python port of markdown-it. Markdown parsing, done right!"
@@ -1256,4 +1277,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "dc23c8fc073746997c26e5695a702d8843ca426676168b137eea061508ebe386"
+content-hash = "59a77b62bf878c0f8efdb1d1ba3ded9eb1e7681be4ba18bd833f4d0f9658b0e2"
