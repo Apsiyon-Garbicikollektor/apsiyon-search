@@ -8,6 +8,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pysolr = "^3.9.0"
+fastapi = "^0.111.1"
+uvicorn = "^0.30.3"
+pandas = "^2.2.2"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
